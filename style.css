@@ -7,13 +7,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     flex-direction: column;
 }
 
 .grid-content {
     margin: 1rem;
     align-items: center;
+    padding: 1rem;
 }
 
 img {
@@ -30,6 +30,7 @@ table, th, td {
     border-collapse: collapse;
     border-color: rgb(66, 165, 168);
     max-width: 50%;
+    margin: 5rem;
 }
 
 tr:nth-child(even) {
@@ -39,6 +40,7 @@ tr:nth-child(even) {
 a {
     color: rgb(220, 132, 9);
     text-decoration: none;
+    padding: 0.5rem;
 }
 
 a:hover {
@@ -49,6 +51,16 @@ ul{
     list-style-type: square;
 }
 
+
+h1 {
+    color: rgb(8, 130, 146);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
 p {
     font-weight: bold;
+    color:rgb(8, 130, 146);
+    margin-bottom: auto;
 }
