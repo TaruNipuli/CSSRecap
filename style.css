@@ -3,12 +3,17 @@
 }
 
 body {
-    background-color: lemonchiffon;
+    background-color: rgb(176, 206, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
 }
 
 .grid-content {
-    padding: 1rem;
     margin: 1rem;
+    align-items: center;
 }
 
 img {
@@ -16,21 +21,23 @@ img {
     border-color: cadetblue;
     border-width: 0.2rem;
     border-style: solid;
+    align-items: center;
 
 }
 
 table, th, td {
     border: 0.2rem solid;
     border-collapse: collapse;
-    border-color: cadetblue;
+    border-color: rgb(66, 165, 168);
+    max-width: 50%;
 }
 
 tr:nth-child(even) {
-    background-color: #D6EEEE;
+    background-color: #95c9b0;
   }
 
 a {
-    color: green;
+    color: rgb(220, 132, 9);
     text-decoration: none;
 }
 
@@ -40,4 +47,8 @@ a:hover {
 
 ul{
     list-style-type: square;
+}
+
+p {
+    font-weight: bold;
 }
