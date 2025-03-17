@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+.grid-content {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+img {
+    border-radius: 3rem;
+    border-color: cadetblue;
+    border-width: 0.2rem;
+    border-style: solid;
+
+}
+
+table, th, td {
+    border: 0.2rem solid;
+    border-collapse: collapse;
+    border-color: cadetblue;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+ul{
+    list-style-type: square;
+}
